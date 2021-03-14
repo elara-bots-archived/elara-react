@@ -34,7 +34,7 @@ menu.addOption(`Option 1`, `Description for the option`);
 let msg = await message.channel.send(`Loading, one moment please.`),
     collector = await menu.run(msg, { filter: (react, user) => user.id === message.author.id }),
     choice = await collector.selection;
-if(!choice) return msg.edit(`You didn't provide a choice?`);
+if(choice === null || choice === undefined) return msg.edit(`You didn't provide a choice?`);
 
 // returns a number.
 // 0-9
