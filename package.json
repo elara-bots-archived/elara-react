@@ -1,0 +1,14 @@
+{
+  "name": "elara-react",
+  "version": "1.0.0",
+  "description": "Elara's reaction handler, for embed-pages and embed-menus ",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SUPERCHIEFYT (Elara-Discord-Bots, Elara-Services)",
+  "license": "MIT",
+  "peerDependencies": {
+    "discord.js": "^12.x"
+  }
+}
