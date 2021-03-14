@@ -38,7 +38,7 @@ if(!choice) return msg.edit(`You didn't provide a choice?`);
 
 // returns a number.
 // 0-9
-if(choice === 1) return msg.edit(`You've option you've selected is 1!`); 
+if(choice === 1) return msg.edit(`You've selected option 1!`); 
 // Only include 
 // , { filter: (react, user) => user.id === message.author.id }
 // If you want it to be locked to the message author. 
