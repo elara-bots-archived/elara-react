@@ -1,6 +1,6 @@
 {
   "name": "elara-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Elara's reaction handler, for embed-pages and embed-menus ",
   "main": "./src/index.js",
   "scripts": {
@@ -15,6 +15,7 @@
     "discord.js": "^12.x"
   },
   "changelog": [
+    "[1.0.3]: Fixed the README.md file, the RichMenu example was incorrect.",
     "[1.0.2]: Added the README.md file, and examples in the readme"
   ]
 }
